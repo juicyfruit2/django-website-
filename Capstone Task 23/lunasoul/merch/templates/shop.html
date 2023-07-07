@@ -1,0 +1,160 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merchandise</title>
+
+  <!-- Bootstrap CSS -->
+  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-color: #f8e9ed;
+    }
+
+    .navbar {
+      background-color: #d2184e;
+    }
+
+    h1, h2, h3 {
+      color: #d2184e;
+      text-shadow: 2px 2px 4px #f5c7d1;
+    }
+
+    .jumbotron {
+      background-color: #ffd7e5;
+    }
+
+    .card {
+      background-color: #ffeff3;
+    }
+
+    .btn-primary {
+      background-color: #d2184e;
+      border-color: #d2184e;
+    }
+
+    .btn-primary:hover {
+      background-color: #ad1444;
+      border-color: #ad1444;
+    }
+
+    /* Additional styles for merchandise page */
+    .merchandise {
+      padding: 30px;
+    }
+
+    .product {
+      margin-bottom: 30px;
+    }
+
+    .product img {
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .product-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    .product-price {
+      color: #ad1444;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>-->
+</head>
+<body>
+  <!-- Navigation -->
+{% include 'navigation.html' %}
+
+  <!-- Page Content -->
+<html>
+  <head>
+    <title>Shop Merch</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .card-img-top {
+          object-fit: contain;
+          height: 200px;
+        }
+
+        .card-img-top:hover {
+          transform: scale(1.1);
+        }
+
+      </style>
+  </head>
+  <body>
+    <header>
+
+        <div>
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder">Shop Merch Now & Get 10% off your first purchase !!!</h1>
+            </div>
+        </div>
+    </header>
+    <br>
+      <div class="row">
+        <div class="col-md-6 col-lg-6">
+          <div class="card mb-3" style="background-color: white;">
+            <br>
+            <img src="{% static 'img/54.jpg' %} " class="card-img-top img-fluid" alt="Item 3">
+            <div class="card-body">
+              <h5 class="card-title">Masks</h5>
+              <p class="card-text">R20</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="card mb-3" style="background-color: white;">
+            <br>
+            <img src="{% static 'img/78.jpg' %} " class="card-img-top img-fluid" alt="Item 4">
+            <div class="card-body">
+              <h5 class="card-title">custom made ring</h5>
+              <p class="card-text">R500</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-6">
+          <div class="card mb-3" style="background-color: white;">
+            <br>
+            <img src="{% static 'img/OIP (1).jpg' %} " class="card-img-top img-fluid">
+            <div class="card-body">
+              <h5 class="card-title">Mug</h5>
+              <p class="card-text">R35</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+            <div class="card mb-3" style="background-color: white;">
+              <br>
+              <img src="{% static 'img/OIP.jpg' %} " class="card-img-top img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">Limited Edition T-Shirt</h5>
+                <p class="card-text">R50</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </body>
+    </html>
+      <!-- Bootstrap JavaScript
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+    </body>
+  </html>
